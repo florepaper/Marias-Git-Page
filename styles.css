@@ -59,7 +59,7 @@ img {
 
 .social a{
     font-size: 640%;
-    color: rgb(63, 43, 0);
+    color: rgb(20, 20, 20);
     filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
     padding: 4px;
     margin: 8px;
@@ -88,8 +88,8 @@ img {
     height: 60%;
     object-fit:scale-down;
     position: relative;
-    filter:opacity(0.8);
-    -webkit-filter:opacity(0.8);
+    filter:opacity(0.9);
+    -webkit-filter:opacity(0.9);
 }
 
 footer {
@@ -100,7 +100,7 @@ footer {
     color: #fff;
 }
 
-.btn {
+/* .btn {
     color: yellow;
     text-decoration: none;
     padding: 0.5em;
@@ -113,7 +113,7 @@ footer {
     -o-border-radius: 20em;
     filter: drop-shadow(0 0 0.3rem yellow);
     -webkit-filter: drop-shadow(0 0 0.3rem yellow);
-}
+} */
 
 /* customizable snowflake styling */
 .snowflake {
