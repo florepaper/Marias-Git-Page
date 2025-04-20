@@ -13,18 +13,14 @@ body {
 
 .logo {
     width:50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+    text-align:center;
     word-wrap:normal;
     max-width: 600px;
 }
 
 -- Social Icons --
 .social {
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+    text-align:center;
     word-wrap:normal;
     max-width: 600px;
 }
