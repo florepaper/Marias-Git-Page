@@ -18,16 +18,12 @@ body {
 }
 
 -- Social Icons --
-.social {
-    height:200%;
-    text-align:center;
-    word-wrap:normal;
-    max-width: 600px;
-}
 
-.social a {
-    color: rgb(20, 20, 20);
-    filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
+.social {
+    filter:opacity(0.9);
+    -webkit-filter:opacity(0.9);
+    filter: invert(28%) sepia(100%) hue-rotate(-180deg) saturate(3);
+    filter: drop-shadow(0 0 0.2rem rgb(20, 20, 20));
     transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
     -webkit-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
     -moz-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
@@ -36,14 +32,16 @@ body {
     -webkit-filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
 }
 
-.social a:hover {
-    color: whitesmoke;
+.social:hover {
+    filter:opacity(0.9);
+    -webkit-filter:opacity(0.9);
     filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
     transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
     -webkit-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
     -moz-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
     -ms-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
     -o-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
+    -webkit-filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
 }
 
 h1 {
