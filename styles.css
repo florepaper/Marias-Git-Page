@@ -19,6 +19,7 @@ body {
 
 -- Social Icons --
 .social {
+    height:200%;
     text-align:center;
     word-wrap:normal;
     max-width: 600px;
@@ -43,7 +44,6 @@ body {
     -moz-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
     -ms-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
     -o-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
-    -webkit-filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
 }
 
 h1 {
@@ -76,13 +76,6 @@ p {
     position:relative;
     filter:opacity(0.9);
     -webkit-filter:opacity(0.9);
-}
-
-.qrcode:hover {
-    filter:blur(0px);
-    filter:opacity(0.9);
-    -webkit-filter:opacity(0.9);
-    -webkit-filter:blur(0px);
 }
 
 /* customizable snowflake styling */
