@@ -1,9 +1,8 @@
-
 body {
-    margin: 20px;
-    /* padding: 2%; */
-    background: rgb(255, 221, 210);
+    margin: 2%;
+    background: rgb(253, 172, 152);
     background-image: linear-gradient(rgb(255, 221, 210), rgb(253, 172, 152));
+    background-repeat: no-repeat;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
     text-align: center;
@@ -11,7 +10,7 @@ body {
 }
 
 .logo {
-    width:75%;
+    width:60%;
     text-align:center;
     word-wrap:normal;
     max-width: 600px;
@@ -19,29 +18,11 @@ body {
 
 -- Social Icons --
 
-.social {
+.socialImg {
+    width: 10%;
+    max-width: 300px;
     filter:opacity(0.9);
     -webkit-filter:opacity(0.9);
-    filter: invert(28%) sepia(100%) hue-rotate(-180deg) saturate(3);
-    filter: drop-shadow(0 0 0.2rem rgb(20, 20, 20));
-    transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
-    -webkit-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
-    -moz-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
-    -ms-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
-    -o-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
-    -webkit-filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
-}
-
-.social:hover {
-    filter:opacity(0.9);
-    -webkit-filter:opacity(0.9);
-    filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
-    transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
-    -webkit-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
-    -moz-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
-    -ms-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
-    -o-transition: background-color 0.1s ease-out, color 0.1s ease-out, filter 0.1s ease-out;
-    -webkit-filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
 }
 
 h1 {
@@ -61,7 +42,7 @@ h1:after {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 600px;
     text-align: center;
     word-wrap:inherit;
@@ -69,7 +50,7 @@ p {
 }
 
 .qrcode {
-    width:50%;
+    width: 100%;
     max-width: 300px;
     filter:opacity(0.9);
     -webkit-filter:opacity(0.9);
