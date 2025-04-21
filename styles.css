@@ -1,7 +1,7 @@
 
 body {
     margin: 20px;
-    padding: 2%;
+    /* padding: 2%; */
     background: rgb(255, 221, 210);
     background-image: linear-gradient(rgb(255, 221, 210), rgb(253, 172, 152));
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -69,12 +69,21 @@ p {
 }
 
 .qrcode {
-    height: 20%;
-    object-fit:scale-down;
-    position:relative;
+    width:100%;
+    max-width: 300px;
     filter:opacity(0.9);
     -webkit-filter:opacity(0.9);
 }
+
+.grass {
+    width:100%;
+    position: relative;
+    bottom: -20;
+    overflow: hidden;
+    filter:opacity(0.9);
+    -webkit-filter:opacity(0.9);
+}
+
 
 /* customizable snowflake styling */
 .snowflake {
